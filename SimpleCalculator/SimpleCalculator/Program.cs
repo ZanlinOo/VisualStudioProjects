@@ -21,7 +21,7 @@ namespace SimpleCalculator
 
             string input = Console.ReadLine();
             
-
+            //allows user to keep inputting a value until a space is detected
             for (int i = 0; input[i] != ' '; i++)
             {
                 string inputtedValue = input.Substring(lastKnownCharPosition,i+1);
